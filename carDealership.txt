@@ -4,15 +4,15 @@ __________________________
 - TABELLA AUTO USATE -
 
 id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
-poster ( foto ) - TEXT 
-Marca - VARCHAR(20)
-Modello - VARCHAR(20)
-Cilindrata - FLOAT(6,2)
-Targa - VARCHAR(10)
-Prezzo - FLOAT(8, 2) - 
-km percorsi - FLOAT(8, 2)
-anno immatricolazione - YEAR
-Tipo di cambio - VARCHAR(15)
-Marce - TINYINT
-descrizione - TEXT 
-Proprietario - VARCHAR(255)
+poster ( foto ) - TEXT - DEFAULT (path-to-default-img)
+Marca - VARCHAR(20) - NOT NULL
+Modello - VARCHAR(20) - NOT NULL
+Cilindrata - FLOAT(6,2) - NOT NULL-
+Targa - VARCHAR(10) - NULL
+Prezzo - FLOAT(8, 2) - NOT NULL
+km percorsi - FLOAT(8, 2) - NOT NULL
+anno immatricolazione - YEAR - NOT NULL
+Tipo di cambio - VARCHAR(15) - NOT NULL
+Marce - TINYINT - NULL
+descrizione - TEXT - NULL
+Proprietario - VARCHAR(255) - NULL
